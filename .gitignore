@@ -2,6 +2,7 @@
 
 # Compiled output
 /dist
+!/dist/ft-lib-*.tgz
 /tmp
 /out-tsc
 /bazel-out

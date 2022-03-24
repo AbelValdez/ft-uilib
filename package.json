@@ -6,6 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "npm-pack": "cd dist/ft-lib && npm pack",
+    "package": "npm run build && npm run npm-pack",
     "test": "ng test"
   },
   "private": true,
