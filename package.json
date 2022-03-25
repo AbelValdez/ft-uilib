@@ -9,7 +9,7 @@
     "npm-pack": "cd dist/ft-lib && npm pack",
     "test": "ng test",
     "update-lib-version": "cd projects/ft-lib && npm version patch && cd ../../",
-    "update-lib-dist": "git stash push && git subtree push --prefix dist/ft-lib ft-lib main && git stash pop",
+    "update-lib-dist": "git stash push && git subtree push --prefix=dist/ft-lib ft-lib main && git stash pop",
     "bamboo-build": "npm run update-lib-version && ng build && npm run update-lib-dist"
   },
   "private": true,
