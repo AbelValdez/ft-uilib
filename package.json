@@ -6,9 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "bamboo-build": "cd projects/ft-lib && npm version patch && cd .. && cd .. ng build && git subtree push --prefix dist/ft-lib ft-lib main",
     "npm-pack": "cd dist/ft-lib && npm pack",
-    "test": "ng test"
+    "test": "ng test",
+    "update-lib-version": "cd projects/ft-lib && npm version patch && cd ../../",
+    "update-lib-dist": "git stash push && git subtree push --prefix dist/ft-lib ft-lib main && git stash pop",
+    "bamboo-build": "update-lib-version && ng build && update-lib-dist"
   },
   "private": true,
   "dependencies": {
