@@ -11,8 +11,9 @@
 
     "copy-lib":"cp -r dist/ft-lib/* ft-lib-dist",
     "update-lib-version": "cd projects/ft-lib && npm version patch && cd ../../",
-    "update-lib-dist": "git add -A && git commit -m=Bambooupdateversion && git push && git subtree push --prefix=ft-lib-dist https://github.com/AbelValdez/ft-lib-dist main --tags",
-    "bamboo-build": "npm run update-lib-version && ng build && npm run copy-lib && npm run update-lib-dist"
+    "update-lib-dist": "git add -A && git commit -m=Bambooupdateversion && git push && git subtree push --prefix=ft-lib-dist https://github.com/AbelValdez/ft-lib-dist main",
+    "update-lib-after-version": "cd ft-lib-dist && npm version patch",
+    "bamboo-build": "ng build && npm run copy-lib && npm run update-lib-after-version && npm run update-lib-dist"
   },
   "private": true,
   "dependencies": {
