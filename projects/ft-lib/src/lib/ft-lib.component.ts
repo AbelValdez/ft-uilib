@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-ft-lib',
+  selector: 'ft-lib',
   template: `
     <p>
-      ft-lib works!
+      ft-lib is working!
     </p>
   `,
   styles: [

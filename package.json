@@ -6,8 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "bamboo-build": "npm version patch && git subtree push --prefix dist/ft-lib ft-lib main",
     "npm-pack": "cd dist/ft-lib && npm pack",
-    "package": "npm run build && npm run npm-pack && cp dist/ft-lib/*.tgz bin",
     "test": "ng test"
   },
   "private": true,
