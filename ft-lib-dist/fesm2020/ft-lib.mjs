@@ -21,7 +21,7 @@ class FtLibComponent {
 FtLibComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.2.7", ngImport: i0, type: FtLibComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
 FtLibComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.2.7", type: FtLibComponent, selector: "ft-lib", ngImport: i0, template: `
     <p>
-      ft-lib is working!
+      ft-lib is working now!
     </p>
   `, isInline: true });
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.2.7", ngImport: i0, type: FtLibComponent, decorators: [{
@@ -30,7 +30,7 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.2.7", ngImpor
                     selector: 'ft-lib',
                     template: `
     <p>
-      ft-lib is working!
+      ft-lib is working now!
     </p>
   `,
                     styles: []
