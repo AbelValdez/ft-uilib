@@ -1,0 +1,31 @@
+{
+  "name": "ft-lib",
+  "version": "0.0.5",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/ft-lib.mjs",
+  "es2020": "fesm2020/ft-lib.mjs",
+  "esm2020": "esm2020/ft-lib.mjs",
+  "fesm2020": "fesm2020/ft-lib.mjs",
+  "fesm2015": "fesm2015/ft-lib.mjs",
+  "typings": "ft-lib.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ft-lib.d.ts",
+      "esm2020": "./esm2020/ft-lib.mjs",
+      "es2020": "./fesm2020/ft-lib.mjs",
+      "es2015": "./fesm2015/ft-lib.mjs",
+      "node": "./fesm2015/ft-lib.mjs",
+      "default": "./fesm2020/ft-lib.mjs"
+    }
+  },
+  "sideEffects": false
+}

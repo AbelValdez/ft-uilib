@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of ft-lib
+ */
+export * from './lib/ft-lib.service';
+export * from './lib/ft-lib.component';
+export * from './lib/ft-lib.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2Z0LWxpYi9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsc0JBQXNCLENBQUM7QUFDckMsY0FBYyx3QkFBd0IsQ0FBQztBQUN2QyxjQUFjLHFCQUFxQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBmdC1saWJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9mdC1saWIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9mdC1saWIuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2Z0LWxpYi5tb2R1bGUnO1xuIl19

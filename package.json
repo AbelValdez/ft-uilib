@@ -8,8 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "npm-pack": "cd dist/ft-lib && npm pack",
     "test": "ng test",
+
+    "copy-lib":"cp -r dist/ft-lib/* ft-lib-dist",
     "update-lib-version": "cd projects/ft-lib && npm version patch && cd ../../",
-    "update-lib-dist": "git stash push && git subtree push --prefix=dist/ft-lib ft-lib main && git stash pop",
+    "update-lib-dist": "git stash push && git subtree push --prefix=ft-lib-dist ft-lib main && git stash pop",
     "bamboo-build": "npm run update-lib-version && ng build && npm run update-lib-dist"
   },
   "private": true,
