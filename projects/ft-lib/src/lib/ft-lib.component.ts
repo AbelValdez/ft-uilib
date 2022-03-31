@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'ft-lib',
   template: `
     <p>
-      ft-lib is working now!
+      ft-lib is working now 28!
     </p>
   `,
   styles: [
